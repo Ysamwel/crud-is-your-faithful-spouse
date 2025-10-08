@@ -12,5 +12,5 @@ app.use('/courses', courseRoutes);
 
 app.get('/', (_, res) => res.send('Welcome to the Student-Course API '));
 
-const PORT = process.env.PORT || 3306;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(` Server running on port ${PORT}`));
